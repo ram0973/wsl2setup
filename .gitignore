@@ -1,0 +1,13 @@
+.idea
+__pycache__
+venv/
+htmlcov/
+.coverage
+core/.env
+core/*.old
+.pytest_cache/
+*.log
+.vagrant/
+.mypy_cache
+*.pyc
+secrets.yml
