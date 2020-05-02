@@ -34,8 +34,8 @@ PS> git clone your_application app_name
 PS> mkcert -CAROOT
 %USERPROFILE%\AppData\Local\mkcert
 # Go to d:\webapps\app_name and run:
-PS> Copy-Item -Path ".\fabric\local_certs\rootCA-key.pem" -Destination "C:\Users\yabbarov.rt\AppData\Local\mkcert\rootCA-key.pem"
-PS> Copy-Item -Path ".\fabric\local_certs\chain.pem" -Destination "C:\Users\yabbarov.rt\AppData\Local\mkcert\rootCA.pem"
+PS> Copy-Item -Path ".\fabric\local_certs\rootCA-key.pem" -Destination "C:\Users\user_name\AppData\Local\mkcert\rootCA-key.pem"
+PS> Copy-Item -Path ".\fabric\local_certs\chain.pem" -Destination "C:\Users\user_name\AppData\Local\mkcert\rootCA.pem"
 PS> mkcert -install
 ```
 
