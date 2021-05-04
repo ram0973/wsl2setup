@@ -66,7 +66,7 @@ EOF
 ```
 
 ## Get systemd functional in WSL2. 
-Ubuntu 20.04 tested only. In previuous versions daemonize stays at another path, please check yours.
+Ubuntu 20.04 tested only. In previous versions daemonize stays at another path, please check yours.
 Thanks to [this tutorial](https://hoverbear.org/blog/getting-the-most-out-of-wsl/)
 
 ```bash
